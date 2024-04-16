@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 768px;
+}
+
+.main{
+    width: 384px;
+}
+
+.side{
+    width: 192px;
+}
