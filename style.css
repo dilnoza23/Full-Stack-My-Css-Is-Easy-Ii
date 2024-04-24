@@ -1,17 +1,40 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+
+#box {
+    border-radius: 5px;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 20px;
 }
 
 .header {
     width: 768px;
+    background-color: orange;
 }
 
-.main{
+.main {
     width: 384px;
+    background-color: rgb(36, 39, 207);
 }
 
-.side{
+.empty {
+    background-color: transparent;
+}
+
+.side {
     width: 192px;
+}
+
+
+.sidebar {
+    background-color: red;
+}
+
+.footer {
+    background-color: green;
 }
