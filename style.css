@@ -1,40 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.header {
+    background-color: orange;
+    }
 
-
-#box {
+    .my-box {
     border-radius: 5px;
     text-align: center;
+    height: 5rem;
     line-height: 5rem;
     font-size: 20px;
-}
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 5px black;
+    }
 
-.header {
-    width: 768px;
-    background-color: orange;
-}
-
-.main {
-    width: 384px;
+    .main {
     background-color: rgb(36, 39, 207);
-}
 
-.empty {
+    }
+
+    .empty {
     background-color: transparent;
-}
+    }
 
-.side {
-    width: 192px;
-}
-
-
-.sidebar {
+    .sidebar {
     background-color: red;
-}
+    }
 
-.footer {
+    .footer {
     background-color: green;
-}
+    }
